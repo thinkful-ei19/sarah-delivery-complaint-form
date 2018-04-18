@@ -1,6 +1,10 @@
 .complaintForm {
   text-align: center;
 }
+.message {
+  color: red;
+  font-size: 20px;
+}
 
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
