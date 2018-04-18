@@ -5,6 +5,7 @@ import thunk from 'redux-thunk';
 export default createStore(
     combineReducers({
         form: formReducer
-    }),
-    applyMiddleware(thunk)
+    })
+    // ,
+    // applyMiddleware(thunk)
 );
