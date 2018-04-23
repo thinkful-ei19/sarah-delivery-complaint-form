@@ -122,5 +122,7 @@ class ComplaintForm extends Component {
 }
 
 export default reduxForm({
-  form: 'complaint'
+  form: 'complaint',
+  onSubmitFail: (errors, dispatch) =>
+        dispatch(focus('complaint', Object.keys(errors)[0]))
 })(ComplaintForm);
